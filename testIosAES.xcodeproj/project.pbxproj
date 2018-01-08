@@ -13,6 +13,8 @@
 		9C73C70B20034170003391B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C73C70920034170003391B0 /* Main.storyboard */; };
 		9C73C70D20034170003391B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C73C70C20034170003391B0 /* Assets.xcassets */; };
 		9C73C71020034170003391B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C73C70E20034170003391B0 /* LaunchScreen.storyboard */; };
+		9C73C7342003587D003391B0 /* CryptLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C7312003587D003391B0 /* CryptLib.m */; };
+		9C73C7352003587D003391B0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C73C7332003587D003391B0 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9C73C70C20034170003391B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C73C70F20034170003391B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C73C71120034170003391B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C73C7302003587D003391B0 /* CryptLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptLib.h; sourceTree = "<group>"; };
+		9C73C7312003587D003391B0 /* CryptLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptLib.m; sourceTree = "<group>"; };
+		9C73C7322003587D003391B0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		9C73C7332003587D003391B0 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		9C73C6FF20034170003391B0 /* testIosAES */ = {
 			isa = PBXGroup;
 			children = (
+				9C73C7302003587D003391B0 /* CryptLib.h */,
+				9C73C7312003587D003391B0 /* CryptLib.m */,
+				9C73C7322003587D003391B0 /* NSData+Base64.h */,
+				9C73C7332003587D003391B0 /* NSData+Base64.m */,
 				9C73C70320034170003391B0 /* AppDelegate.h */,
 				9C73C70420034170003391B0 /* AppDelegate.m */,
 				9C73C70620034170003391B0 /* ViewController.h */,
@@ -152,6 +162,8 @@
 			files = (
 				9C73C70820034170003391B0 /* ViewController.m in Sources */,
 				9C73C70520034170003391B0 /* AppDelegate.m in Sources */,
+				9C73C7352003587D003391B0 /* NSData+Base64.m in Sources */,
+				9C73C7342003587D003391B0 /* CryptLib.m in Sources */,
 				9C73C70220034170003391B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

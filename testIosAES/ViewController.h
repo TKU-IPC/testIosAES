@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnAES128:(id)sender;
+- (IBAction)btnAES256:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *txtResult;
 
 @end
 
